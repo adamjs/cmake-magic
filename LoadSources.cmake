@@ -11,9 +11,9 @@ MACRO(DIRLIST_RECURSE result dir)
     SET(${result} ${dir_list})
 ENDMACRO()
 
-# Add all CPP source files recursively in a certain directory
-# while also generating source_groups to maintain the
-# original directory structure in Visual Studio.
+# Find all CPP source files recursively in a certain directory
+# and store it in result while also generating source_groups to
+# maintain the original directory structure in Visual Studio.
 MACRO(LOAD_SOURCES result dir)
   IF(NOT DEFINED ${result})
     set(${result} "")
