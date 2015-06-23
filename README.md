@@ -2,11 +2,11 @@
 
 This is my dumping ground for handy CMake snippets.
 
-## LoadSources.cmake - Automatically Load Files
+## LoadSources.cmake - Load Sources Recursively
 
 This script recursively loads all CPP (.h, .cc, .cpp) source files from a certain folder
-and creates the necessary source_groups so that directory structure
-is maintained within Visual Studio.
+and creates the necessary `source_groups` so that directory structure is maintained 
+within Visual Studio's Solution Explorer.
 
 ### Usage:
 
