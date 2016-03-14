@@ -1,4 +1,4 @@
-# Handy CMake Scripts
+# CMake Magic
 
 This is my dumping ground for handy CMake snippets.
 
